@@ -2,6 +2,7 @@ package com.ff.exp.consumer;
 
 import com.ff.exp.common.model.User;
 import com.ff.exp.common.service.UserService;
+import com.ff.ffrpc.proxy.ServiceProxyFactory;
 
 /**
  * ClassName: EasyConsumerExample
@@ -14,8 +15,14 @@ import com.ff.exp.common.service.UserService;
 public class EasyConsumerExample {
 
     public static void main(String[] args) {
+        // // 静态代理
+        // UserService userService = new UserServiceProxy();
+
+        // 动态代理
+        UserService userService = ServiceProxyFactory.getProxy(UserService.class);
+
         // todo 需要获取 UserService 的实现类对象
-        UserService userService = null;
+        // UserService userService = null;
         User user = new User();
         user.setName("fay");
         // 调用

@@ -1,7 +1,9 @@
 package com.ff.exp.provider;
 
+import com.ff.exp.common.model.User;
 import com.ff.exp.common.service.UserService;
 import com.ff.exp.consumer.UserServiceProxy;
+import com.ff.ffrpc.proxy.ServiceProxyFactory;
 import com.ff.ffrpc.registry.LocalRegistry;
 import com.ff.ffrpc.server.HttpServer;
 import com.ff.ffrpc.server.VertxHttpServer;
@@ -17,8 +19,6 @@ import com.ff.ffrpc.server.VertxHttpServer;
  */
 public class EasyProviderExample {
     public static void main(String[] args) {
-        // 静态代理
-        UserService userService = new UserServiceProxy();
 
         // 注册服务
         LocalRegistry.register(UserService.class.getName(), UserServiceImpl.class);
