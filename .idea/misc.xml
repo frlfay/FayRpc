@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/exp-provider/pom.xml" />
         <option value="$PROJECT_DIR$/exp-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/ff-rpc-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/fay-rpc-basic/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

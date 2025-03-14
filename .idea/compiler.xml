@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="exp-common" />
-        <module name="ff-rpc-basic" />
         <module name="exp-consumer" />
         <module name="exp-provider" />
+        <module name="fay-rpc-basic" />
       </profile>
     </annotationProcessing>
   </component>
