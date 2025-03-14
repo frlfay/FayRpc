@@ -1,10 +1,10 @@
-package com.ff.ffrpc.proxy;
+package com.fay.fayrpc.proxy;
 
 import java.lang.reflect.Proxy;
 
 /**
  * ClassName: ServiceProxyFactory
- * Package: com.ff.ffrpc.proxy
+ * Package: com.fay.fayrpc.proxy
  * Description: 服务代理工厂（用于创建代理对象）
  *
  * @Author: FLFfang

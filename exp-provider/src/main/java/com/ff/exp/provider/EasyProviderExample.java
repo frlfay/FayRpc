@@ -1,16 +1,13 @@
-package com.ff.exp.provider;
+package com.fay.exp.provider;
 
-import com.ff.exp.common.model.User;
-import com.ff.exp.common.service.UserService;
-import com.ff.exp.consumer.UserServiceProxy;
-import com.ff.ffrpc.proxy.ServiceProxyFactory;
-import com.ff.ffrpc.registry.LocalRegistry;
-import com.ff.ffrpc.server.HttpServer;
-import com.ff.ffrpc.server.VertxHttpServer;
+import com.fay.exp.common.service.UserService;
+import com.fay.fayrpc.registry.LocalRegistry;
+import com.fay.fayrpc.server.HttpServer;
+import com.fay.fayrpc.server.VertxHttpServer;
 
 /**
  * ClassName: EasyProviderExample
- * Package: com.ff.exp.provider
+ * Package: com.fay.exp.provider
  * Description: 简易服务提供者示例
  * 之后会在 main 方法中编写提供服务的代码
  *

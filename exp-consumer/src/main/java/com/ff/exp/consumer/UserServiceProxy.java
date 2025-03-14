@@ -1,17 +1,17 @@
-package com.ff.exp.consumer;
+package com.fay.exp.consumer;
 
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
-import com.ff.exp.common.model.User;
-import com.ff.exp.common.service.UserService;
-import com.ff.ffrpc.model.RpcRequest;
-import com.ff.ffrpc.model.RpcResponse;
-import com.ff.ffrpc.serializer.JdkSerializer;
-import com.ff.ffrpc.serializer.Serializer;
+import com.fay.exp.common.model.User;
+import com.fay.exp.common.service.UserService;
+import com.fay.fayrpc.model.RpcRequest;
+import com.fay.fayrpc.model.RpcResponse;
+import com.fay.fayrpc.serializer.JdkSerializer;
+import com.fay.fayrpc.serializer.Serializer;
 import java.io.IOException;
 /**
  * ClassName: UserServiceProxy
- * Package: com.ff.exp.consumer
+ * Package: com.fay.exp.consumer
  * Description: 静态代理
  *
  * @Author: FLFfang

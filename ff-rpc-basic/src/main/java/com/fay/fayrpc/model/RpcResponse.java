@@ -1,4 +1,4 @@
-package com.ff.ffrpc.model;
+package com.fay.fayrpc.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * ClassName: RpcResponse
- * Package: com.ff.ffrpc.model
+ * Package: com.fay.fayrpc.model
  * Description: PRC 响应
  * 响应类 RpcResponse 的作用是封装调用方法得到的返回值、以及调用的信息（比如异常情况）等
  *

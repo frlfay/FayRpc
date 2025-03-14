@@ -19,7 +19,7 @@
 * exp-common：示例代码的公共依赖，包括接口、Model 等
 * exp-consumer：示例服务消费者代码
 * exp-provider：示例服务提供者代码
-* ff-rpc-basic：简易版 RPC 框架
+* fay-rpc-basic：简易版 RPC 框架
 
 ### 项目介绍
 参考 Dubbo 开源项目自主设计实现的 Java 高性能 RPC 框架。

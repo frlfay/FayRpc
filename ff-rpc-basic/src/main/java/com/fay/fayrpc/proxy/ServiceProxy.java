@@ -1,11 +1,11 @@
-package com.ff.ffrpc.proxy;
+package com.fay.fayrpc.proxy;
 
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
-import com.ff.ffrpc.model.RpcRequest;
-import com.ff.ffrpc.model.RpcResponse;
-import com.ff.ffrpc.serializer.JdkSerializer;
-import com.ff.ffrpc.serializer.Serializer;
+import com.fay.fayrpc.model.RpcRequest;
+import com.fay.fayrpc.model.RpcResponse;
+import com.fay.fayrpc.serializer.JdkSerializer;
+import com.fay.fayrpc.serializer.Serializer;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
@@ -14,7 +14,7 @@ import java.lang.reflect.Method;
 
 /**
  * ClassName: ServiceProxy
- * Package: com.ff.ffrpc.proxy
+ * Package: com.fay.fayrpc.proxy
  * Description: 服务代理（JDK 动态代理）
  *
  * @Author: FLFfang

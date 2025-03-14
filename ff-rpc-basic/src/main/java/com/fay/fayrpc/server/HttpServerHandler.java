@@ -1,10 +1,10 @@
-package com.ff.ffrpc.server;
+package com.fay.fayrpc.server;
 
-import com.ff.ffrpc.model.RpcRequest;
-import com.ff.ffrpc.model.RpcResponse;
-import com.ff.ffrpc.registry.LocalRegistry;
-import com.ff.ffrpc.serializer.JdkSerializer;
-import com.ff.ffrpc.serializer.Serializer;
+import com.fay.fayrpc.model.RpcRequest;
+import com.fay.fayrpc.model.RpcResponse;
+import com.fay.fayrpc.serializer.JdkSerializer;
+import com.fay.fayrpc.serializer.Serializer;
+import com.fay.fayrpc.registry.LocalRegistry;
 import io.vertx.core.Handler;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpServerRequest;
@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
 
 /**
  * ClassName: HttpServerHandler
- * Package: com.ff.ffrpc.server
+ * Package: com.fay.fayrpc.server
  * Description: HTTP 请求处理
  * 1.反序列化请求为对象，并从请求对象中获取参数。
  * 2.根据服务名称从本地注册器中获取到对应的服务实现类。

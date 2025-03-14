@@ -1,11 +1,11 @@
-package com.ff.exp.provider;
+package com.fay.exp.provider;
 
-import com.ff.exp.common.model.User;
-import com.ff.exp.common.service.UserService;
+import com.fay.exp.common.model.User;
+import com.fay.exp.common.service.UserService;
 
 /**
  * ClassName: UserServiceImpl
- * Package: com.ff.exp.provider
+ * Package: com.fay.exp.provider
  * Description: 实现公共模块中定义的用户服务接口。
  * 功能是打印用户的名称，并且返回参数中的用户对象。
  *

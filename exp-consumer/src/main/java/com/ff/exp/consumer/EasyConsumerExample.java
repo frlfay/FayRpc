@@ -1,12 +1,12 @@
-package com.ff.exp.consumer;
+package com.fay.exp.consumer;
 
-import com.ff.exp.common.model.User;
-import com.ff.exp.common.service.UserService;
-import com.ff.ffrpc.proxy.ServiceProxyFactory;
+import com.fay.exp.common.model.User;
+import com.fay.exp.common.service.UserService;
+import com.fay.fayrpc.proxy.ServiceProxyFactory;
 
 /**
  * ClassName: EasyConsumerExample
- * Package: com.ff.exp.consumer
+ * Package: com.fay.exp.consumer
  * Description: 简易服务消费者示例
  *
  * @Author: FLFfang

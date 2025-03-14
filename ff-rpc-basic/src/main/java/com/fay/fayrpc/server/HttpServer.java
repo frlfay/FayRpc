@@ -1,8 +1,8 @@
-package com.ff.ffrpc.server;
+package com.fay.fayrpc.server;
 
 /**
  * ClassName: HttpServer
- * Package: com.ff.ffrpc.server
+ * Package: com.fay.fayrpc.server
  * Description: HTTP 服务器接口
  *
  * @Author: FLFfang

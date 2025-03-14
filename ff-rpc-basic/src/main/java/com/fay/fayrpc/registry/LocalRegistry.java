@@ -1,11 +1,11 @@
-package com.ff.ffrpc.registry;
+package com.fay.fayrpc.registry;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * ClassName: LocalRegistry
- * Package: com.ff.ffrpc.registry
+ * Package: com.fay.fayrpc.registry
  * Description: 【本地】注册中心
  * 使用线程安全的 ConcurrentHashMap 存储服务注册信息，key 为服务名称、value 为服务的实现类
  * 之后就可以根据要调用的服务名称获取到对应的实现类，然后通过反射进行方法调用了

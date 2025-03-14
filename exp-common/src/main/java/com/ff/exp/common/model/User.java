@@ -1,10 +1,10 @@
-package com.ff.exp.common.model;
+package com.fay.exp.common.model;
 
 import java.io.Serializable;
 
 /**
  * ClassName: User
- * Package: com.ff.exp.common.model
+ * Package: com.fay.exp.common.model
  * Description: 用户实体类User
  *
  * @Author: FLFfang

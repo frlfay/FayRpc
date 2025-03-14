@@ -1,10 +1,10 @@
-package com.ff.exp.common.service;
+package com.fay.exp.common.service;
 
-import com.ff.exp.common.model.User;
+import com.fay.exp.common.model.User;
 
 /**
  * ClassName: UserService
- * Package: com.ff.exp.common.service
+ * Package: com.fay.exp.common.service
  * Description: 用户服务
  *
  * @Author: FLFfang

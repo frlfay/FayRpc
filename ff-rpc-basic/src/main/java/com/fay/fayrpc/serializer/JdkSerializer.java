@@ -1,10 +1,10 @@
-package com.ff.ffrpc.serializer;
+package com.fay.fayrpc.serializer;
 
 import java.io.*;
 
 /**
  * ClassName: JdkSerializer
- * Package: com.ff.ffrpc.serializer
+ * Package: com.fay.fayrpc.serializer
  * Description: 基于 Java 自带的序列化器实现 JdkSerializer
  * 这段代码无需记忆，需要用到的时候照抄即可，关键是要理解序列化和反序列化的区别
  *

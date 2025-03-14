@@ -1,4 +1,4 @@
-package com.ff.ffrpc.model;
+package com.fay.fayrpc.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * ClassName: RpcRequest
- * Package: com.ff.ffrpc.model
+ * Package: com.fay.fayrpc.model
  * Description: RPC 请求
  * 请求类 RpcRequest 的作用是封装调用所需的信息
  * 比如服务名称、方法名称、调用参数的类型列表、参数列表
