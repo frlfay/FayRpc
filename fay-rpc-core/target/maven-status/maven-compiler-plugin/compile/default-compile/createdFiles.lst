@@ -1,0 +1,12 @@
+com/fay/fayrpc/server/HttpServer.class
+com/fay/fayrpc/server/HttpServerHandler.class
+com/fay/fayrpc/serializer/JdkSerializer.class
+com/fay/fayrpc/proxy/ServiceProxy.class
+com/fay/fayrpc/registry/LocalRegistry.class
+com/fay/fayrpc/serializer/Serializer.class
+com/fay/fayrpc/proxy/ServiceProxyFactory.class
+com/fay/fayrpc/server/VertxHttpServer.class
+com/fay/fayrpc/model/RpcRequest.class
+com/fay/fayrpc/model/RpcRequest$RpcRequestBuilder.class
+com/fay/fayrpc/model/RpcResponse$RpcResponseBuilder.class
+com/fay/fayrpc/model/RpcResponse.class
